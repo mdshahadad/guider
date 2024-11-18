@@ -1,8 +1,5 @@
 # [Live Site](https://guider.shahadad.com/)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+- Guider is the site where you can find the destination where you want to visit and the place details. Also you can you find local guide to visit the place.
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Guider ensure you to find a best local guide to travel you favorite destination with a best prices and ensure your safety.
