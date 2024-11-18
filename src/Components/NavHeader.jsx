@@ -4,15 +4,15 @@ import './NavHeader.css'
 
 const NavHeader = () => {
     return (
-        <div className="sticky z-20">
+        <div className="sticky top-0 z-20">
             <Navbar fluid rounded className="max-w-7xl mx-auto py-5">
-                <Navbar.Brand href="https://flowbite-react.com">
-                    <img src="" className="mr-3 h-6 sm:h-9" alt="Guider Logo" />
-                    <span className="self-center whitespace-nowrap text-xl font-semibold dark:text-white">Guider</span>
+                <Navbar.Brand href="/">
+                    <img src="" className="mr-3 h-6 sm:h-9" alt="" />
+                    <span className="self-center whitespace-nowrap text-2xl font-bold">Guider</span>
                 </Navbar.Brand>
                 <div className="flex md:order-2">
-                    <Link to="/login" className="ml-2 bg-[#4a7ddf] hover:bg-[#51c2e9] hover:text-black rounded-md text-white flex items-center py-2 px-5 font-semibold">Login</Link>
-                    <Link to='/signUp' className="ml-2 bg-[#4a7ddf] hover:bg-[#51c2e9] hover:text-black rounded-md text-white flex items-center py-2 px-5 font-semibold">Register</Link>
+                    <Link to="/login" className="ml-2 bg-[#4a7ddf] hover:bg-[#51c2e9] hover:text-black rounded-md text-white flex items-center py-3 px-8 font-semibold transition-all duration-700">Login</Link>
+                    <Link to='/signUp' className="ml-2 bg-[#4a7ddf] hover:bg-[#51c2e9] hover:text-black rounded-md text-white flex items-center py-3 px-8 font-semibold transition-all duration-700">Register</Link>
                     <Navbar.Toggle />
                 </div>
                 <Navbar.Collapse>
