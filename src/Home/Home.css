@@ -1,0 +1,11 @@
+.bgImg {
+    background-image: url('../../public/images/istanbul2\ \(1\).jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+}
+
+.bgBack {
+    background-color: #0f2454;
+    opacity: 0.6;
+}

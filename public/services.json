@@ -1,0 +1,112 @@
+[
+    {
+        "id": 1,
+        "city": "Sundarban",
+        "TourPackage": "Sundarbans Wildlife Adventure",
+        "DestinationImage": "https://i.postimg.cc/0NW2t4sz/Sundarban-Img.jpg",
+        "DestinationDescription": "Explore the world's largest mangrove forest in Sundarbans, Bangladesh. Witness majestic Royal Bengal Tigers, exotic bird species, and lush greenery amidst the tranquil rivers.",
+        "ServiceProviderName": "Delta Adventures Ltd.",
+        "ServiceProviderImage": "https://example.com/delta_adventures.jpg",
+        "TourDestination": "Sundarbans, Bangladesh",
+        "PackagePrice": "$1200"
+    },
+    {
+        "id": 2,
+        "city": "Sajek",
+        "TourPackage": "Sajek Valley Escapade",
+        "DestinationImage": "https://i.postimg.cc/vmHZtspR/SajekImg.jpg",
+        "DestinationDescription": "Discover the pristine beauty of Sajek Valley, Bangladesh. Trek through rolling hills, visit indigenous communities, and marvel at breathtaking panoramic views.",
+        "ServiceProviderName": "Green Hills Tours",
+        "ServiceProviderImage": "https://example.com/green_hills_tours.jpg",
+        "TourDestination": "Sajek Valley, Bangladesh",
+        "PackagePrice": "$800"
+    },
+    {
+        "id": 3,
+        "city": "Istanbul",
+        "TourPackage": "Enchanting Istanbul Experience",
+        "DestinationImage": "https://i.postimg.cc/BZ8tzJt4/Istanbul-Img.jpg",
+        "DestinationDescription": "Immerse yourself in the vibrant culture and rich history of Istanbul, Turkey. Explore iconic landmarks like the Blue Mosque, Hagia Sophia, and bustling bazaars.",
+        "ServiceProviderName": "Turquoise Travels",
+        "ServiceProviderImage": "https://example.com/turquoise_travels.jpg",
+        "TourDestination": "Istanbul, Turkey",
+        "PackagePrice": "$1500"
+    },
+    {
+        "id": 4,
+        "city": "Kashmir",
+        "TourPackage": "Kashmir Valley Retreat",
+        "DestinationImage": "https://i.postimg.cc/9z368d0R/Kashmir-Img.jpg",
+        "DestinationDescription": "Experience the paradise on earth in the picturesque Kashmir Valley, India. Marvel at snow-capped peaks, serene lakes, and verdant meadows amidst Himalayan landscapes.",
+        "ServiceProviderName": "Kashmir Expeditions",
+        "ServiceProviderImage": "https://example.com/kashmir_expeditions.jpg",
+        "TourDestination": "Kashmir, India",
+        "PackagePrice": "$1700"
+    },
+    {
+        "id": 5,
+        "city": "Darjeeling",
+        "TourPackage": "Darjeeling Tea Plantation Tour",
+        "DestinationImage": "https://example.com/darjeeling.jpg",
+        "DestinationDescription": "Discover the charm of Darjeeling amidst lush tea plantations in India. Experience scenic toy train rides, visit monasteries, and savor world-renowned Darjeeling tea.",
+        "ServiceProviderName": "Eastern Escapes",
+        "ServiceProviderImage": "https://example.com/eastern_escapes.jpg",
+        "TourDestination": "Darjeeling, India",
+        "PackagePrice": "$1300"
+    },
+    {
+        "id": 6,
+        "city": "Himalayan",
+        "TourPackage": "Himalayan Adventure Trek",
+        "DestinationImage": "https://example.com/nepal.jpg",
+        "DestinationDescription": "Embark on an epic trek in the majestic Himalayas of Nepal. Traverse through rugged terrain, visit ancient monasteries, and behold breathtaking views of towering peaks.",
+        "ServiceProviderName": "Himalayan Expeditions",
+        "ServiceProviderImage": "https://example.com/himalayan_expeditions.jpg",
+        "TourDestination": "Nepal",
+        "PackagePrice": "$2000"
+    },
+    {
+        "id": 7,
+        "city": "Moscow",
+        "TourPackage": "Moscow City Discovery",
+        "DestinationImage": "https://example.com/moscow.jpg",
+        "DestinationDescription": "Uncover the history and grandeur of Moscow, Russia. Explore iconic landmarks like the Kremlin, Red Square, and indulge in the rich cultural offerings of the city.",
+        "ServiceProviderName": "Russian Adventures Ltd.",
+        "ServiceProviderImage": "https://example.com/russian_adventures.jpg",
+        "TourDestination": "Moscow, Russia",
+        "PackagePrice": "$1800"
+    },
+    {
+        "id": 8,
+        "city": "Maasai",
+        "TourPackage": "Safari Adventure in Maasai Mara",
+        "DestinationImage": "https://example.com/maasai_mara.jpg",
+        "DestinationDescription": "Embark on a thrilling safari in Maasai Mara National Reserve, Kenya. Witness the Great Migration, spot the Big Five, and immerse in the Maasai culture.",
+        "ServiceProviderName": "Safari Expeditions Africa",
+        "ServiceProviderImage": "https://example.com/safari_expeditions.jpg",
+        "TourDestination": "Maasai Mara, Kenya",
+        "PackagePrice": "$3000"
+    },
+    {
+        "id": 9,
+        "city": "Kyoto",
+        "TourPackage": "Cultural Exploration in Kyoto",
+        "DestinationImage": "https://example.com/kyoto.jpg",
+        "DestinationDescription": "Delve into the cultural treasures of Kyoto, Japan. Visit ancient temples, partake in tea ceremonies, and stroll through traditional neighborhoods steeped in history.",
+        "ServiceProviderName": "Zen Tours Japan",
+        "ServiceProviderImage": "https://example.com/zen_tours.jpg",
+        "TourDestination": "Kyoto, Japan",
+        "PackagePrice": "$1900"
+    },
+    {
+        "id": 10,
+        "city": "Maldives",
+        "TourPackage": "Aurora Borealis Adventure in Maldives",
+        "DestinationImage": "https://example.com/maldives.jpg",
+        "DestinationDescription": "Chase the magical Northern Lights in the enchanting Lapland region, Finland. Experience husky sledding, reindeer safaris, and cozy nights in glass igloos under the Arctic sky.",
+        "ServiceProviderName": "Arctic Adventures Finland",
+        "ServiceProviderImage": "https://example.com/arctic_adventures.jpg",
+        "TourDestination": "Maldives",
+        "PackagePrice": "$2500"
+    }
+]

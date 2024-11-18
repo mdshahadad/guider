@@ -1,0 +1,8 @@
+.outlet{
+    min-height: 100vh;
+    margin-bottom: -300px;
+}
+
+.footer, .push {
+    height: 300px;
+}
