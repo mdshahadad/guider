@@ -31,7 +31,7 @@ const Login = () => {
         <div className="authenticationBg min-h-screen mb-14">
             <div className="pt-44">
             </div>
-            <form onSubmit={handleLoginUser} className="flex max-w-md ml-[1100px] flex-col gap-4 py-16 backdrop-blur-xl bg-[#ffffff50] rounded-lg px-10">
+            <form onSubmit={handleLoginUser} className="flex max-w-md ml-[1100px] flex-col gap-4 py-16 backdrop-blur-xl bg-[#ffffff33] rounded-lg px-10">
                 <div>
                     <div className="mb-2 block">
                         <Label htmlFor="email2" value="Your email" />
@@ -46,7 +46,7 @@ const Login = () => {
                 </div>
                 <input type="submit" value="Login" className="bg-[#4a7ddf] text-white px-5 py-2 rounded-md text-center mt-2 font-medium" />
                 <p className="font-medium">Don't have an account? <Link to="/signUp" className="text-cyan-600">Register here</Link></p>
-                <p className="text-center font-medium text-xl">-- OR --</p>
+                {/* <p className="text-center font-medium text-xl">-- OR --</p> */}
                 <GoogleSignIn></GoogleSignIn>
             </form>
         </div>

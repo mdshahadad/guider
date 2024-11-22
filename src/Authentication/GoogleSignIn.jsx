@@ -19,7 +19,7 @@ const GoogleSignIn = () => {
     }
 
     return (
-        <div className="bg-backdrop-blur-lg rounded-full bg-[#ffffff76] py-1">
+        <div className="bg-backdrop-blur-lg rounded-full bg-white py-2 mt-4">
             <p onClick={handleGoogleSignIn} className="cursor-pointer flex justify-center items-center font-semibold">
                 <FcGoogle className="text-4xl mr-2"></FcGoogle> Sign in with google
             </p>
