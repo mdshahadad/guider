@@ -7,7 +7,6 @@ const NavHeader = () => {
         <section className="sticky top-0 bg-transparent z-20 bg-white">
             <Navbar className="max-w-7xl mx-auto py-2 bg-transparent">
                 <Navbar.Brand href="/">
-                    <img src="" className="mr-3 h-6 sm:h-9" alt="" />
                     <span className="self-center whitespace-nowrap text-2xl font-bold">Guider</span>
                 </Navbar.Brand>
                 <div className="flex md:order-2">

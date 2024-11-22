@@ -1,7 +1,7 @@
 import { Outlet } from "react-router-dom";
 import NavHeader from "../Components/NavHeader";
 import FooterCompo from "../Components/FooterCompo";
-import '../Components/FooterCompo.css';
+// import '../Components/FooterCompo.css';
 
 const Root = () => {
     return (
