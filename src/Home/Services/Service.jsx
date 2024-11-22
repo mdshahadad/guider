@@ -1,7 +1,8 @@
 import { Avatar } from "flowbite-react";
+import { Link } from "react-router-dom";
 
 const Service = ({ tour }) => {
-    const { DestinationImage, DestinationDescription, PackagePrice, ServiceProviderName, ServiceProviderImage, TourPackage } = tour;
+    const { id, DestinationImage, DestinationDescription, PackagePrice, ServiceProviderName, ServiceProviderImage, TourPackage } = tour;
 
     console.log(tour)
     return (
@@ -21,13 +22,15 @@ const Service = ({ tour }) => {
                             <div className="text-sm text-gray-500 dark:text-gray-400">Joined in August 2014</div>
                         </div>
                     </Avatar>
-                    <div className='flex mt-8 justify-between items-center px-10'>
-                        <h4 className='text-4xl font-semibold'>{PackagePrice}</h4>
-                        <button className='bg-[#4a7ddf] px-8 py-4 rounded-md text-white'>View Details</button>
+                    <div className='flex mt-8 justify-between items-center'>
+                        <h4 className='text-2xl font-semibold'>{PackagePrice}</h4>
+                        <Link to={`/services/${id}`}>
+                            <button className='bg-[#4a7ddf] px-8 py-3 rounded-lg text-white'>View Details</button>
+                        </Link>
                     </div>
                 </div>
             </div>
-        </div>
+        </div >
     );
 };
 

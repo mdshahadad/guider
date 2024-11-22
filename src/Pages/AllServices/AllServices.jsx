@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import AllService from "./AllService";
 import './AllService.css';
 import { Avatar } from "flowbite-react";
+import Services from "../../Home/Services/Services";
 
 
 const AllServices = () => {
@@ -49,9 +50,13 @@ const AllServices = () => {
                 <button onClick={handleSearchResult} className="bg-[#4a7ddf] text-white px-12 py-[18px] font-semibold absolute right-5 rounded-r-md">Search</button>
             </div>
 
-            <div className="bg-white mt-72 space-y-12">
+            <div className="bg-white mt-72">
+                <Services></Services>
+            </div>
 
-                {/* Pass the services */}
+            {/* <div className="bg-white mt-72 space-y-12">
+
+                Pass the services
                 <div className="pt-28">
 
                     {
@@ -96,14 +101,14 @@ const AllServices = () => {
                     }
                 </div>
 
-                {/* See more button */}
+                See more button
                 <div className="flex justify-center py-8">
                     {
                         !showAll &&
                         <button onClick={toggleShow} className='bg-[#4a7ddf] px-12 py-4 rounded-md text-white text-xl font-medium'>See More</button>
                     }
                 </div>
-            </div>
+            </div> */}
         </div>
     );
 };
