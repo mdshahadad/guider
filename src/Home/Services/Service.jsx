@@ -6,8 +6,8 @@ const Service = ({ tour }) => {
     console.log(tour)
     return (
         <div>
-            <div className='max-w-5xl mx-auto flex justify-center gap-12 items-center shadow-md rounded-xl mb-8'>
-                <img className='max-w-lg rounded-l-xl' src={DestinationImage} alt="" />
+            <div className='max-w-5xl mx-auto flex justify-center gap-8 items-center shadow-md rounded-xl'>
+                <img className='max-w-sm rounded-l-xl' src={DestinationImage} alt="" />
                 <div className='pr-12'>
                     <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
                         {TourPackage}

@@ -4,8 +4,8 @@ import './NavHeader.css'
 
 const NavHeader = () => {
     return (
-        <div className="sticky top-0 z-20">
-            <Navbar fluid rounded className="max-w-7xl mx-auto py-5">
+        <section className="sticky top-0 bg-transparent z-20 bg-white">
+            <Navbar className="max-w-7xl mx-auto py-2 bg-transparent">
                 <Navbar.Brand href="/">
                     <img src="" className="mr-3 h-6 sm:h-9" alt="" />
                     <span className="self-center whitespace-nowrap text-2xl font-bold">Guider</span>
@@ -38,7 +38,7 @@ const NavHeader = () => {
                     <NavLink className="navlink">Support</NavLink>
                 </Navbar.Collapse>
             </Navbar>
-        </div >
+        </section >
     );
 };
 

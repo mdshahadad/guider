@@ -5,7 +5,7 @@ import '../Components/FooterCompo.css';
 
 const Root = () => {
     return (
-        <div>
+        <div className="relative">
             <NavHeader></NavHeader>
             <div className="outlet">
                 <Outlet></Outlet>
