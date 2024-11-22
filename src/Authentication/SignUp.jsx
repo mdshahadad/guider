@@ -44,7 +44,7 @@ const SignUp = () => {
                 </div>
                 <div>
                     <div className="mb-2 block">
-                        <Label htmlFor="email2" value="Email" className="text-md" />
+                        <Label htmlFor="email" value="Email" className="text-md" />
                     </div>
                     <input
                         className="rounded-lg py-3 w-full border-0 border-white focus:ring-0 focus:outline-0 focus:border-0"
@@ -83,7 +83,7 @@ const SignUp = () => {
                         </Link>
                     </Label>
                 </div>
-                <input type="submit" value="Register" className="bg-[#4a7ddf] text-white px-5 py-3 rounded-md text-center font-medium cursor-pointer" />
+                <input type="submit" value="Register" className="bg-[#4a7ddf] text-white px-5 py-3 rounded-lg text-center font-medium cursor-pointer" />
                 <p className="font-medium">Have an account? <Link to="/login" className="text-cyan-600">Login here</Link></p>
 
                 {/* <p className="text-center font-medium text-md">OR</p> */}
